@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,400;0,500;0,600;1,200;1,500;1,600&display=swap');
 html{
   scroll-behavior: smooth;
+  font-family: 'Source Code Pro', monospace;
 }
 .landing{
-  background-image: url('/images/h_img.jpg');
+  background-image: url('../assets/backgrounds/h_img.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +60,7 @@ html{
 }
 .services{
   text-align: center;
-  background-image: url("../images/s_image.jpg");
+  background-image: url("../assets/backgrounds/s_image.jpg");
   color: white;
   background-position: center;
   background-size: cover;
@@ -102,7 +103,7 @@ html{
   font-family: 'Gabriela', serif;
 }
 .contact{
-  background-image: url('../images/c_image.jpg');
+  background-image: url('../assets/backgrounds/c_image.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
